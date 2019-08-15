@@ -12,7 +12,7 @@ const LoggendInRoutes = () => (
         <Route exact path="/" component={Feed} />
         <Route path="/explore" component={Explore} />
         <Route path="/search" component={Search} />
-        <Route path="/:username" component={Profile} />
+        <Route path="/:name" component={Profile} />
     </Switch>
 );
 
